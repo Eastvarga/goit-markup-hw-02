@@ -21,7 +21,7 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--whyte-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -76,11 +76,6 @@ a {
 .address a:focus {
   color: var(--accent-color);
 }
-/* contacts, portfolio projects links включаем у ссылок наследование от родителя */
-/* .contact a, */
-/* .projects-link { */
-/* color: inherit; */
-/* } */
 
 /* hero, footer заливка фона*/
 .hero,
@@ -163,10 +158,14 @@ a {
   color: var(--whyte-color);
   background-color: var(--accent-color);
 }
-
+/* main-portfolio  */
+.main-portfolio {
+  background-color: var(--alt-bg-color);
+}
 /* footer */
 address {
   color: var(--whyte-color);
+  font-style: normal;
 }
 /* footer contacts links */
 .address a {
