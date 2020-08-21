@@ -14,14 +14,14 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --whyte-color: #ffffff;
+  --white-color: #ffffff;
   --main-bg-color: #e5e5e5;
   --alt-bg-color: #f5f4fa;
   --secondary-bg-color: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: var(--whyte-color);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -40,7 +40,7 @@ a {
 }
 /* header */
 .header {
-  background-color: var(--whyte-color);
+  background-color: var(--white-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +58,7 @@ a {
   color: var(--title-text-color);
 }
 .footer .logo {
-  color: var(--whyte-color);
+  color: var(--white-color);
 }
 .logo-head {
   color: var(--accent-color);
@@ -85,7 +85,7 @@ a {
 }
 /* hero title */
 .hero-title {
-  color: var(--whyte-color);
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,7 +95,7 @@ a {
 }
 /* hero button */
 .hero-button {
-  color: var(--whyte-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -105,7 +105,10 @@ a {
 }
 /* hide title пока спрятаны заголовки белым цветом  */
 .hide-head {
-  color: var(--whyte-color);
+  color: var(--white-color);
+}
+.section {
+  background-color: var(--main-bg-color);
 }
 /* section title */
 .section-title {
@@ -143,12 +146,12 @@ a {
 }
 /* projects list */
 .projects li {
-  background-color: var(--whyte-color);
+  background-color: var(--white-color);
 }
 /* button */
 .button {
   color: var(--title-text-color);
-  background-color: var(--whyte-color);
+  background-color: var(--white-color);
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -158,16 +161,16 @@ a {
 }
 .button:hover,
 .button:focus {
-  color: var(--whyte-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 /* main-portfolio  */
 .main-portfolio {
-  background-color: var(--alt-bg-color);
+  background-color: var(--main-bg-color);
 }
 /* footer */
 address {
-  color: var(--whyte-color);
+  color: var(--white-color);
   font-style: normal;
 }
 /* footer contacts links */
