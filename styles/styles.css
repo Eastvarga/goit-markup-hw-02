@@ -124,6 +124,7 @@ a {
 }
 /* our faetures */
 .our-features .title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -149,6 +150,7 @@ a {
   color: var(--title-text-color);
   background-color: var(--whyte-color);
   font-family: inherit;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
