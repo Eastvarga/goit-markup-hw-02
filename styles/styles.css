@@ -64,16 +64,17 @@ a {
   color: var(--accent-color);
 }
 /* nav-links <a> определяем цвет навигации*/
-.nav-links a {
+.nav-links .link {
   color: var(--title-text-color);
 }
 /* header, footer links hover, focus цвет при наведении, фокусе  */
-.nav-links a:hover,
-.nav-links a:focus,
-.contact a:hover,
-.contact a:focus,
-.address a:hover,
-.address a:focus {
+.nav-links .link.current,
+.nav-links .link:hover,
+.nav-links .link:focus,
+.contact .link:hover,
+.contact .link:focus,
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 
